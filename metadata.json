@@ -1,12 +1,16 @@
 {
-  "name": "Jupiter Power User",
-  "symbol": "REP",
-  "description": "Verified reputation proof for holding a wallet active before the snapshot.",
-  "image": "https://raw.githubusercontent.com/thesfb/repute-assets/refs/heads/main/badge.png",
+  "name": "Repute: Power User",
+  "symbol": "RPU",
+  "description": "Verified Jupiter Power User (>10 Transactions).",
+  "image": "https://raw.githubusercontent.com/thesfb/repute-assets/main/badge.png",
   "attributes": [
     {
       "trait_type": "Verification",
-      "value": "ZK Proof"
+      "value": "ZK-Groth16"
+    },
+    {
+      "trait_type": "Criteria",
+      "value": "Jupiter Power User"
     }
   ]
 }
